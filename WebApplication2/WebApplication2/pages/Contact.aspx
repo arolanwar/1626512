@@ -6,7 +6,7 @@
     <link href="../css/contact.css" type="text/css" rel="stylesheet" />
     <script src="../map.js"></script>
 </asp:Content>
-<asp:Content ID="Cnontent2" ContentPlaceHolderID="ContentBody" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentBody" runat="server">
        <div class="wrapper">
   
           <p> Please Fill in the blank</p>
