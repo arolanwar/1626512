@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MP.master.cs" Inherits="WebApplication2.MP" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MasterPage</title>
+
+    <link href="Main.css" type="text/css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <form id="form1" runat="server">
+ <header>
+<div class="clear">    
+          <div class="head">
+                 <h1><span class="newStyle1">HOMEMADE FURNITURE</span></h1> 
+            </div>
+</div>
+            </header>
+    <div class="wrapper">
+        <div class="menu">
+            <ul> 
+                   <li><a href="~Default.aspx" runat="server">Home</a></li>
+                    <li><a href="~/pages/Products.aspx" runat="server">Product</a></li>
+                    <li><a href="~/pages/AboutUs.aspx" runat="server">About</a></li>
+                    <li><a href="~/pages/Contact.aspx" runat="server">Contact</a></li>
+                <li><a href="~/pages/login.aspx" runat="server">Login/Register</a></li>
+            </ul>
+        </div>
+        <div class="clear">
+     </div>
+<div class="container">    
+       <div class="content">
+          <asp:ContentPlaceHolder id="ContentBody" runat="server">  
+          </asp:ContentPlaceHolder>
+           </div> 
+        </div>
+        </div>
+      <div class="wrapper">
+       <div class="menu">
+            <ul>
+                    <li><a href="Default.aspx" runat="server">Home</a></li>
+                    <li><a href="~/pages/Products.aspx" runat="server">Product</a></li>
+                    <li><a href="~/pages/AboutUs.aspx" runat="server">About</a></li>
+                    <li><a href="~/pages/Contact.aspx" runat="server">Contact</a></li>
+                  
+              </ul>
+          <div class="clear">       
+             </div>
+                  <div class="footer">
+                      <a href="http://validator.w3.org/check?uri=referer">validate HTML</a>
+                      <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+                          <h3>Roof Top, Plaza Abdul Razak, Jalan Laksamana Abdul Razak, Bandar Seri Begawan BA1712</h3>
+                    <h3>Homemade Furniture Sendirian Berhad</h3>
+                       <h3>223 8816</h3>
+                      <h3><a href="#">Admin</a></h3>
+                      <h3>Payment: <a href="#">Paypal</a></h3>
+                 <h3><span class="fb-like" data-href="http://localhost:54760/" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+                   </span></h3> 
+                      <h3>
+                        <a href="https://www.facebook.com" target="_blank"><img src="http://www.niftybuttons.com/scribble/facebook.png" border="0"></a>
+                          <a href="https://www.twitter.com" target="_blank"><img src="http://www.niftybuttons.com/scribble/twitter.png" border="0" ></a>
+                          <a href="https://www.youtube.com" target="_blank"><img src="http://www.niftybuttons.com/scribble/youtube.png" border="0" ></a>
+                        <a href="https://www.google.com.bn/?gws_rd=cr&ei=KT3hWKOGNcWH8wWmlqaACw" target="_blank"><img src="http://www.niftybuttons.com/scribble/google.png" border="0"></a>
+                    </h3>   
+                      <h2>Copyright@FurnitureSdnBhd.com</h2> 
+                    </div>
+                </div>
+         
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿body {
+padding:0;
+margin:0;
+color:black;
+text-align:left;
+
+}
+/*ContactUs*/
+.wrapper p{
+    margin:2px;
+    padding:2px;
+    position:center;
+    text-align:left;
+}
+    
+b {
+    margin:65px;
+    padding:0;
+}
+
+.AboutUs
+{
+    margin:10px;
+    padding:10px;
+    height:auto;
+    position:center;
+   
+}
+#map {
+    margin-bottom:10px;
+    width:600px;
+    height:400px;
+   
+}
+
+#static map {
+    margin-bottom:10px;
+    width:600px;
+    height:400px;
+}

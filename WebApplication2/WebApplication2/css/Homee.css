@@ -1,0 +1,80 @@
+﻿body {
+
+}
+.heading{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: inline-block;
+    color: darkblue;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    word-spacing: normal;
+    white-space: normal;
+    letter-spacing: normal;
+    vertical-align: top;
+    line-height: normal;
+    overflow: hidden;
+    float: left;
+    clear: both;
+}
+
+.title1{
+    display:inline-block;
+    text-align:center;
+    color:darkblue;
+    font-size:50pt;
+    font-family:big john;
+ }
+
+.title2{
+    display:block;
+    margin-top:15px;
+    text-align:center;
+    color:darkblue;
+    font-size:14pt;
+    font-family:serif;
+}
+
+.register{
+    margin: 60px auto;
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 3px solid;
+    clear: both;
+    color: darkblue;
+    background-color: rgba(255,255,255,0);
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    position: center;
+    float: none;
+    clear: both;
+    cursor: pointer;
+    top: 312px;
+    left: 580px;
+    text-decoration: none;
+}
+
+.register:hover{
+    background-color:rgba(255,255,255,1);
+    color:#222;
+    cursor:pointer;
+    clear:both;
+}
+
+.wrapper1 {
+    margin:0;
+    padding:0;
+    width:200px;
+    height:100px;
+
+}
