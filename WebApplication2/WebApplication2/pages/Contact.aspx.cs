@@ -35,6 +35,9 @@ namespace WebApplication2
             NetworkCred.Password = "1234567.8";
             smtpClient.UseDefaultCredentials = true;
             smtpClient.Credentials = NetworkCred;
+
+
+
             smtpClient.Port = 587;
            
             

@@ -1,6 +1,9 @@
 ﻿body {
 
 }
+
+/*Default*/
+
 .heading{
     width: 600px;
     height: 300px;
@@ -78,3 +81,18 @@
     height:100px;
 
 }
+
+/*Default.aspx*/
+.furniture
+#image2
+
+{
+    margin:0px;
+    padding:0px;
+    Height:450px;
+    Width:958px; 
+    margin-left:10px; 
+    margin-bottom: 80px; 
+    align-items:center;
+  
+        }

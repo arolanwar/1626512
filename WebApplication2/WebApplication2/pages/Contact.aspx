@@ -50,7 +50,7 @@ Our Location<br />
 
 Static Map<br />
     <div id="static map">
-        <img src="../map%20image/map%20imge.PNG" />
+        <img src="../map%20image/map%20imge.PNG" alt="Location Of Homemade Furniture"/>
     </div>
     
 </asp:Content>
